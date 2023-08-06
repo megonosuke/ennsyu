@@ -9,9 +9,21 @@ header{
   height: 400px;
   background-image: url(img/mv.jpg);
   background-size: cover;
-  background-position: center;
+  /* position: centerだとmainに重なる */
+  background-position: bottom;
 }
 
 .header-logo{
   padding: 20px;
+}
+
+main{
+  width: 840px;
+  margin: 50px auto;
+}
+
+.main-text{
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f7f7f7;
 }
